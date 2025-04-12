@@ -55,18 +55,31 @@
             </li>
           </ul>
         </address>
+
+        <button class="header-btn" tape="button">
+          <svg class="header-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-header"></use>
+          </svg>
+        </button>
+      </div>
+
+      <div class="mobile-menu is-open">
+        <div class="container mobile-menu-container">
+          <button class="mobile-menu-btn">Close</button>
+          <nav>Navigation</nav>
+          <address>Addres</address>
+          <div>Soc link</div>
+        </div>
       </div>
     </header>
-
-    <main>
-      <!--Section 1-->
+    <!-- <main>
       <section class="section-solutions">
         <div class="container">
           <h1 class="title-heading">Effective Solutions for Your Business</h1>
           <button class="btn-order" type="button">Order Service</button>
         </div>
       </section>
-      <!--Section 2 Text-->
+
       <section class="section-text">
         <div class="container">
           <h2 class="visually-hidden">
@@ -135,13 +148,18 @@
           </ul>
         </div>
       </section>
-      <!--Section 3 Team-->
+
       <section class="section-team">
         <div class="container">
           <h2 class="title-headline">Our Team</h2>
           <ul class="list-team">
             <li class="item-team">
-              <img src="./images/img.jpg" alt="Mark Guerrero" width="264" />
+              <img
+                srcset="./images/img.jpg 1x, ./images/img@2x.jpg 2x"
+                src="./images/img.jpg"
+                alt="Mark Guerrero"
+                width="264"
+              />
               <div class="teammates-wrapper">
                 <h3 class="title-team title-subject">Mark Guerrero</h3>
                 <p class="text-team text">Product Designer</p>
@@ -180,7 +198,12 @@
               </div>
             </li>
             <li class="item-team">
-              <img src="./images/img-1.jpg" alt="Tom Ford" width="264" />
+              <img
+                srcset="./images/img-1.jpg 1x, ./images/img-1@2x.jpg 2x"
+                src="./images/img-1.jpg"
+                alt="Tom Ford"
+                width="264"
+              />
               <div class="teammates-wrapper">
                 <h3 class="title-team title-subject">Tom Ford</h3>
                 <p class="text-team text">Frontend Developer</p>
@@ -219,7 +242,12 @@
               </div>
             </li>
             <li class="item-team">
-              <img src="./images/img-2.jpg" alt="Camila Garcia" width="264" />
+              <img
+                srcset="./images/img-2.jpg 1x, ./images/img-2@2x.jpg 2x"
+                src="./images/img-2.jpg"
+                alt="Camila Garcia"
+                width="264"
+              />
               <div class="teammates-wrapper">
                 <h3 class="title-team title-subject">Camila Garcia</h3>
                 <p class="text-team text">Marketing</p>
@@ -257,7 +285,12 @@
               </div>
             </li>
             <li class="item-team">
-              <img src="./images/img-3.jpg" alt="Daniel Wilson" width="264" />
+              <img
+                srcset="./images/img-3.jpg 1x, ./images/img-3@2x.jpg 2x"
+                src="./images/img-3.jpg"
+                alt="Daniel Wilson"
+                width="264"
+              />
               <div class="teammates-wrapper">
                 <h3 class="title-team title-subject">Daniel Wilson</h3>
                 <p class="text-team text">UI Designer</p>
@@ -298,14 +331,18 @@
         </div>
       </section>
 
-      <!--Section 4 Portfolio-->
       <section class="section-portfolio">
         <div class="container">
           <h2 class="title-headline">Our Portfolio</h2>
           <ul class="list-portfolio">
             <li class="item-portfolio">
               <div class="portfolio-wrapper">
-                <img src="./images/Banking.jpg" alt="Banking App" width="360" />
+                <img
+                  srcset="./images/Banking.jpg 1x, ./images/Banking@2x.jpg 2x"
+                  src="./images/Banking.jpg"
+                  alt="Banking App"
+                  width="360"
+                />
                 <p class="text-portfolio-overlay text">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -320,6 +357,7 @@
             <li class="item-portfolio">
               <div class="portfolio-wrapper">
                 <img
+                  srcset="./images/Cashless.jpg 1x, ./images/Cashless@2x.jpg 2x"
                   src="./images/Cashless.jpg"
                   alt="Cashless Payment"
                   width="360"
@@ -338,6 +376,10 @@
             <li class="item-portfolio">
               <div class="portfolio-wrapper">
                 <img
+                  srcset="
+                    ./images/Meditation.jpg    1x,
+                    ./images/Meditation@2x.jpg 2x
+                  "
                   src="./images/Meditation.jpg"
                   alt="Meditation App"
                   width="360"
@@ -355,7 +397,12 @@
             </li>
             <li class="item-portfolio">
               <div class="portfolio-wrapper">
-                <img src="./images/Taxi.jpg" alt="Taxi Service" width="360" />
+                <img
+                  srcset="./images/Taxi.jpg 1x, ./images/Taxi@2x.jpg 2x"
+                  src="./images/Taxi.jpg"
+                  alt="Taxi Service"
+                  width="360"
+                />
                 <p class="text-portfolio-overlay text">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -370,6 +417,7 @@
             <li class="item-portfolio">
               <div class="portfolio-wrapper">
                 <img
+                  srcset="./images/Screen.jpg 1x, ./images/Screen@2x.jpg 2x"
                   src="./images/Screen.jpg"
                   alt="Screen Illustrations"
                   width="360"
@@ -390,6 +438,7 @@
             <li class="item-portfolio">
               <div class="portfolio-wrapper">
                 <img
+                  srcset="./images/Online.jpg 1x, ./images/Online@2x.jpg 2x"
                   src="./images/Online.jpg"
                   alt="Online Courses"
                   width="360"
@@ -479,7 +528,7 @@
         </div>
       </div>
     </footer>
-    <!--Modal window-->
+
     <div class="modal-ovelay-wrapper">
       <div class="modal-wrapper">
         <button class="modal-close-btn" type="button">
@@ -575,6 +624,6 @@
           <button class="btn-order" type="submit">Send</button>
         </form>
       </div>
-    </div>
+    </div>-->
   </body>
 </html>
