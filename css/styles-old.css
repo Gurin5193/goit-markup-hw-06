@@ -1,6 +1,6 @@
 /*Загалні стилі*/
 
-.title-headline {
+.text-title-headline {
   margin-bottom: 72px;
   font-size: 36px;
   line-height: 1.11;
@@ -28,41 +28,6 @@
 
 .svg {
   fill: #f4f4fd;
-}
-
-/*Section 2 Text*/
-
-.section-text {
-  padding: 120px 0;
-}
-
-.list-text {
-  display: flex;
-  gap: 24px;
-}
-
-.item-text {
-  flex-basis: calc((100% - 72px) / 4);
-}
-
-.list-icon-text {
-  display: flex;
-  gap: 24px;
-}
-
-.item-icon-text {
-  flex-basis: calc((100% - 72px) / 4);
-}
-
-.text-icon-wrapper {
-  margin-bottom: 8px;
-  border: 1px solid #8e8f99;
-  border-radius: 4px;
-  background-color: #f4f4fd;
-  height: 112px;
-  justify-content: center;
-  display: flex;
-  align-items: center;
 }
 
 /*Section 3 Team*/

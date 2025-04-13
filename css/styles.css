@@ -181,7 +181,7 @@ button {
     color: #404bbf;
   }
 
-  .contacts {
+  .contacts-header {
     margin-left: auto;
     font-style: normal;
     display: block;
@@ -436,7 +436,7 @@ button {
   background-color: #404bbf;
 }
 
-/*-----Section-1-Effective-solutios-tablet-----*/
+/*-----Effective-solutios tablet-----*/
 
 @media screen and (min-width: 768px) {
   .section-solutions {
@@ -449,10 +449,18 @@ button {
       ),
       url("../images/office-background/office-tab@1x.jpg");
   }
+
+  .title-heading {
+    max-width: 496px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    margin-bottom: 36px;
+  }
 }
 
 @media screen and (min-width: 768px) and (min-resolution: 192dpi) {
-  .hero-section {
+  .section-solutions {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -460,16 +468,7 @@ button {
       url("../images/office-background/office-tab@2x.jpg");
   }
 }
-
-.title-heading {
-  max-width: 496px;
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
-  margin-bottom: 36px;
-}
-
-/*-----Section-1-Effective-solutios-desktop-----*/
+/*-----Effective-solutios desktop-----*/
 
 @media screen and (min-width: 1158px) {
   .section-solutions {
@@ -481,6 +480,10 @@ button {
         rgba(46, 47, 66, 0.7)
       ),
       url("../images/office-background/office-desk@1x.jpg");
+  }
+
+  .title-heading {
+    margin-bottom: 48px;
   }
 }
 
@@ -494,8 +497,99 @@ button {
   }
 }
 
-.title-heading {
-  margin-bottom: 48px;
+/*----------Section-Text----------*/
+
+.list-icon-text {
+  display: none;
 }
 
-/*----------Section-Text----------*/
+.section-text {
+  padding: 96px 0;
+}
+
+.list-text {
+  display: flex;
+  flex-direction: column;
+  row-gap: 72px;
+}
+
+.text-title-subject {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+
+.text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/*-----Text tablet-----*/
+
+@media screen and (min-width: 768px) {
+  .list-text {
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 24px;
+  }
+
+  .item-text {
+    flex-basis: calc((100% - 24px) / 2);
+  }
+
+  .text-title-subject {
+    text-align: left;
+  }
+}
+
+/*-----Text desktop-----*/
+
+@media screen and (min-width: 1158px) {
+  .list-icon-text {
+    display: flex;
+    gap: 24px;
+  }
+
+  .item-icon-text,
+  .item-text {
+    flex-basis: calc((100% - 72px) / 4);
+  }
+
+  .section-text {
+    padding: 120px 0;
+  }
+  .list-text {
+    display: flex;
+    gap: 24px;
+  }
+
+  .text-icon-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    height: 112px;
+    background-color: #f4f4fd;
+  }
+
+  .text-title-subject {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+
+  .text {
+    font-weight: 400;
+  }
+}
+
+/*----------Section Team----------*/
