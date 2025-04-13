@@ -21,6 +21,8 @@
   </head>
 
   <body>
+    <!----------Header---------->
+
     <header class="header-page">
       <div class="container header-container">
         <nav class="header-nav">
@@ -41,7 +43,7 @@
           </ul>
         </nav>
 
-        <address class="contacts">
+        <address class="contacts-header">
           <ul class="list-contacts">
             <li class="item-contacts">
               <a class="link-contacts" href="mailto:info@devstudio.com"
@@ -63,7 +65,9 @@
         </button>
       </div>
 
-      <div class="mobile-menu is-open">
+      <!----------Mobile menu---------->
+
+      <div class="mobile-menu">
         <div class="container mobile-menu-container">
           <button class="mobile-menu-btn" type="button">
             <svg class="mobile-icon-close" width="8" height="8">
@@ -73,9 +77,7 @@
           <nav class="mobile-nav">
             <ul class="mobile-list">
               <li class="mobile-item">
-                <a class="mobile-link mobile-link-studio" href="./index.html"
-                  >Studio</a
-                >
+                <a class="mobile-link" href="./index.html">Studio</a>
               </li>
               <li class="mobile-item">
                 <a class="mobile-link" href="#">Portfolio</a>
@@ -85,18 +87,66 @@
               </li>
             </ul>
           </nav>
-          <address>Addres</address>
-          <div>Soc link</div>
+          <address class="mobile-contacts">
+            <ul class="mobile-list-contacts">
+              <li class="mobile-item-contacts">
+                <a class="mobile-link-contacts" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="mobile-item-contacts">
+                <a class="mobile-link-contacts" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+          <div class="mobile-social-wrapper">
+            <ul class="mobile-social-list">
+              <li class="mobile-social-item">
+                <a href="" class="mobile-social-link">
+                  <svg class="mobile-menu-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-instagram"></use></svg
+                ></a>
+              </li>
+
+              <li class="mobile-social-item">
+                <a href="" class="mobile-social-link"
+                  ><svg class="mobile-menu-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-twitter"></use></svg
+                ></a>
+              </li>
+
+              <li class="mobile-social-item">
+                <a href="" class="mobile-social-link"
+                  ><svg class="mobile-menu-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-facebook"></use></svg
+                ></a>
+              </li>
+
+              <li class="mobile-social-item">
+                <a href="" class="mobile-social-link"
+                  ><svg class="mobile-menu-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-linkedin"></use></svg
+                ></a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </header>
-    <!-- <main>
+    <main>
+
+<!----------Section-1-Effective-solutios---------->
+
       <section class="section-solutions">
         <div class="container">
           <h1 class="title-heading">Effective Solutions for Your Business</h1>
           <button class="btn-order" type="button">Order Service</button>
         </div>
       </section>
+
+<!----------Section-Text---------->
 
       <section class="section-text">
         <div class="container">
@@ -167,6 +217,7 @@
         </div>
       </section>
 
+      <!--
       <section class="section-team">
         <div class="container">
           <h2 class="title-headline">Our Team</h2>
@@ -642,6 +693,6 @@
           <button class="btn-order" type="submit">Send</button>
         </form>
       </div>
-    </div>-->
+    </div> -->
   </body>
 </html>
