@@ -420,7 +420,7 @@ button {
   box-shadow: 0 4px 4px 0 #00000026;
   border-radius: 4px;
   padding: 16px 32px;
-  font-family: "Roboto", sans-serif;
+
   background-color: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
@@ -819,3 +819,135 @@ button {
 }
 
 /*----------Footer----------*/
+.footer-page {
+  padding: 96px 0;
+  background-color: #2e2f42;
+}
+
+.footer-container-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 72px;
+  justify-content: center;
+}
+
+.logo-footer-wrapper {
+  display: block;
+  text-align: center;
+}
+
+.logo-footer {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.logo-footer {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+.logo-footer-studio {
+  color: #f4f4fd;
+}
+
+.text-footer {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+
+.text-footer-media {
+  font-weight: 500;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.list-icon-footer {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.item-icon-footer {
+  width: 40px;
+  height: 40px;
+  flex-basis: calc((100% - 48px) / 4);
+}
+
+.social-icon-footer {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  height: 100%;
+  width: 100%;
+}
+
+.icon-footer {
+  fill: #fcfcfc;
+}
+
+.social-icon-footer:hover,
+.social-icon-footer:focus {
+  background-color: #31d0aa;
+}
+
+.input-footer {
+  border: 1px solid #fff;
+  border-radius: 4px;
+  width: 288px;
+  height: 40px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background-color: transparent;
+  padding-left: 16px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.btn-subscribe-footer {
+  min-height: 40px;
+  width: 165px;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  cursor: pointer;
+  background-color: #4d5ae5;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin: 0 auto;
+}
+
+.btn-subscribe-footer:hover,
+.btn-subscribe-footer:focus {
+  background-color: #31d0aa;
+}
+
+.icon-subscribe {
+  fill: #ffffff;
+  margin-left: 16px;
+}
+
+.form-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
