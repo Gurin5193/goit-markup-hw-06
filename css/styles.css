@@ -4,7 +4,7 @@ body {
   color: #434455;
 }
 
-/*----------Загальні скидання----------*/
+/*-- Загальні скидання --*/
 
 ul,
 ol {
@@ -50,7 +50,7 @@ button {
   border: 0;
 }
 
-/*----------Загальні стилі----------*/
+/*-- Загальні стилі --*/
 
 .container {
   max-width: 320px;
@@ -58,7 +58,7 @@ button {
   margin: 0 auto;
 }
 
-/*-----tablet-----*/
+/*-- tablet --*/
 
 @media screen and (min-width: 768px) {
   .container {
@@ -66,7 +66,7 @@ button {
   }
 }
 
-/*-----desctop-----*/
+/*-- desctop --*/
 
 @media screen and (min-width: 1158px) {
   .container {
@@ -75,7 +75,7 @@ button {
   }
 }
 
-/*----------Header----------*/
+/*-- Header --*/
 
 .header-page {
   border-bottom: 1px solid #e7e9fc;
@@ -124,7 +124,7 @@ button {
   fill: #2f2f37;
 }
 
-/*-----header-tablet-----*/
+/*-- header tablet --*/
 
 @media screen and (min-width: 768px) {
   .header-btn {
@@ -204,7 +204,7 @@ button {
   }
 }
 
-/*-----header-desktop-----*/
+/*-- header-desktop --*/
 
 @media screen and (min-width: 1158px) {
   .logo-header {
@@ -225,7 +225,7 @@ button {
   }
 }
 
-/*-----Mobile menu-header----------*/
+/*-- Mobile menu-header --*/
 
 .mobile-menu {
   position: fixed;
@@ -370,7 +370,7 @@ button {
   }
 }
 
-/*----------Section-1-Effective-solutios----------*/
+/*-- Section-1-Effective-solutios --*/
 
 .section-solutions {
   padding: 72px 0;
@@ -436,7 +436,7 @@ button {
   background-color: #404bbf;
 }
 
-/*-----Effective-solutios tablet-----*/
+/*-- Effective solutios tablet --*/
 
 @media screen and (min-width: 768px) {
   .section-solutions {
@@ -468,7 +468,7 @@ button {
       url("../images/office-background/office-tab@2x.jpg");
   }
 }
-/*-----Effective-solutios desktop-----*/
+/*-- Effective-solutios desktop --*/
 
 @media screen and (min-width: 1158px) {
   .section-solutions {
@@ -497,7 +497,7 @@ button {
   }
 }
 
-/*----------Section-Text----------*/
+/*-- Section Text --*/
 
 .list-icon-text {
   display: none;
@@ -531,7 +531,7 @@ button {
   color: #434455;
 }
 
-/*-----Text tablet-----*/
+/*-- Text tablet --*/
 
 @media screen and (min-width: 768px) {
   .list-text {
@@ -549,7 +549,7 @@ button {
   }
 }
 
-/*-----Text desktop-----*/
+/*-- Text desktop --*/
 
 @media screen and (min-width: 1158px) {
   .list-icon-text {
@@ -592,7 +592,7 @@ button {
   }
 }
 
-/*----------Section Team----------*/
+/*-- Section Team --*/
 
 .section-team {
   padding: 96px 0;
@@ -674,7 +674,7 @@ button {
   fill: #f4f4fd;
 }
 
-/*-----Team tablet-----*/
+/*-- Team tablet --*/
 
 @media screen and (min-width: 768px) {
   .list-team {
@@ -702,7 +702,7 @@ button {
   }
 }
 
-/*----------Section Portfolio----------*/
+/*-- Section Portfolio --*/
 
 .section-portfolio {
   padding: 96px 0;
@@ -757,7 +757,7 @@ button {
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
-/*-----Portfolio tablet-----*/
+/*-- Portfolio tablet --*/
 
 @media screen and (min-width: 768px) {
   .list-portfolio {
@@ -772,7 +772,7 @@ button {
   }
 }
 
-/*-----Portfolio desktop-----*/
+/*-- Portfolio desktop --*/
 
 @media screen and (min-width: 1158px) {
   .section-portfolio {
@@ -818,7 +818,7 @@ button {
   }
 }
 
-/*----------Footer----------*/
+/*-- Footer --*/
 
 .footer-page {
   padding: 96px 0;
@@ -952,7 +952,7 @@ button {
   gap: 16px;
 }
 
-/*-----Footer tablet-----*/
+/*-- Footer tablet --*/
 
 @media screen and (min-width: 768px) {
   .footer-container-wrapper {
@@ -980,7 +980,7 @@ button {
   }
 }
 
-/*-----Footer desktop-----*/
+/*-- Footer desktop --*/
 
 @media screen and (min-width: 1158px) {
   .footer-page {
@@ -1002,7 +1002,7 @@ button {
   }
 }
 
-/*----------Modal overlay window----------*/
+/*-- Modal overlay window --*/
 
 .modal-ovelay-wrapper {
   width: 100%;
@@ -1200,7 +1200,7 @@ button {
   margin-bottom: 24px;
 }
 
-/*-----Modal overlay window tablet desktop-----*/
+/*-- Modal overlay window tablet desktop --*/
 
 @media screen and (min-width: 768px) {
   .modal-wrapper {
