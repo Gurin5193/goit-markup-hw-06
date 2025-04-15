@@ -319,6 +319,9 @@ button {
   display: flex;
   flex-direction: column;
   gap: 24px;
+}
+
+.mobile-contacts {
   margin-bottom: 48px;
 }
 
