@@ -1024,7 +1024,7 @@ button {
 }
 
 .modal-wrapper {
-  padding: 72px 24px 24px 24px;
+  padding: 72px 16px 24px 16px;
   width: 288px;
   min-height: 623px;
   border-radius: 4px;
@@ -1081,7 +1081,7 @@ button {
   color: #2e2f42;
 
   margin-bottom: 16px;
-  width: 256px;
+  width: 255px;
 }
 
 .modal-input {
@@ -1105,8 +1105,8 @@ button {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  display: block;
-  align-items: baseline;
+  display: flex;
+  align-items: center;
   margin-bottom: 4px;
 }
 
@@ -1174,6 +1174,7 @@ button {
 }
 
 .modal-span {
+  flex-shrink: 0;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -1209,5 +1210,9 @@ button {
 
   .title-modal {
     width: 360px;
+  }
+
+  .modal-wrapper {
+    padding: 72px 24px 24px 24px;
   }
 }
